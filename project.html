@@ -1,0 +1,457 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Food Shopping Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <style>
+        *{
+            padding: 0%;
+            margin: 0%;
+            box-sizing: border-box;
+        }
+        .navbar-brand{
+            color:black;
+            font-size:2rem;
+
+        }
+        .navbar-brand:hover{
+            color:red;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .nav-link{
+            margin-right: 10px;
+            margin-left:10px;
+            color:black;
+            text-transform: uppercase;
+            font-family: "Mooli variant0", Tofu;
+        }
+        .nav-link:hover{
+            color:violet;
+            font-style:italic;
+        }
+        .search{
+            height: 40px;
+            width:80%;
+            border-radius: 60px;
+            outline:none;
+            margin-right:-35px;
+            font-family: "Mooli variant0", Tofu;
+            border:2px solid rgb(248,26,92);
+        }
+        .btn0{
+            height:40px;
+            width:40%;
+            outline:none;
+            border:none;
+            background-color: rgb(248,26,92);
+            color:white;
+            border-radius: 60px;
+            font-weight:700;
+        }
+        .main{
+            background:url(ed4b3a84e0f361f56b3e37ff5fe9eb3d.jpg)no-repeat;
+            background-size: cover;
+            height:100vh;
+            background-position: 50% 50%;
+            width:100%;
+        }
+        .main h1{
+            font-size:3rem;
+            font-weight:700;
+        }
+        .btn1{
+            height:45px;
+            width:35%;
+            border:none;
+            outline: none;
+            background-color:rgb(248,26,92);
+            color:white;
+            font-weight:700;
+            border-radius: 60px;
+        }
+        .btn1:hover{
+            background-color: red;
+            transition:0.5s;
+        }
+        .img.luid:hover{
+            color:yellow;
+        }
+        .fruit:hover{
+            font-style: italic;
+            color:blue;
+        }
+        .fruit1:hover{
+            font-style: italic;
+            color:bisque;
+        }
+        .fruit2:hover{
+            font-style: italic;
+            color:yellowgreen;
+        }
+        h1{
+            font-style: 700px;
+        }
+        .card:hover{
+            box-shadow: 2px 1px 27px -3px rgba(0,0,0,0.75);
+            -webkit-box-shadow: 2px 1px 27px -3px rgba(0,0,0,0.75);
+            -moz-box-shadow: 2px 1px 27px -3px rgba(0,0,0,0.75);
+            transition:0.5s;
+        }
+        .apple{
+            background:url(fruitss.jpeg)no-repeat;
+            background-size: cover;
+            height:100%;
+            width:100%;
+        }
+        .apple h1{
+            font-family: "Mooli variant0", Tofu;
+        }
+        .news{
+            background-color: black;
+            color:white;
+
+        }
+        .btn2{
+            height: 45px;
+            width:100px;
+            background: white;
+            margin-left:-10px;
+            border:2px solid white;
+            font-weight: 600;
+        }
+        
+        
+
+
+    </style>
+  </head>
+  <body>
+    <!-- menubar -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand" href="#">Organic Products</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav m-auto my-2 my-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" href="home.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="trending.html">TRENDING</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="store.html">Store</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="oragnic.html">Organic</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact Us</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="px-2 search" type="search" placeholder="Search"aria-label="Search">
+              <button class="btn0" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+
+      <section class="main">
+        <div class="container py-5">
+            <div class="row py-4" >
+                <div class="col-lg-7 pt-5 text-center">
+                  <h1 class="pt-5">Nature Heals!</h1>
+                  <button class="btn1 mt-3">More Tips</button> 
+                </div>
+            </div>
+        </div>
+      </section>
+      <section class="new">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-lg7 m-auto">
+                    <div class="row text-center">
+                        <div class="col-lg-4">
+                            <img src="banana.png" class="img.luid">
+                            <h6 class="fruit">NATURAL</h6>
+                        </div>
+                        <div class="col-lg-4">
+                            <img src="grapes.png" class="img.luid">
+                            <h6 class="fruit1">NATURAL</h6>
+                        </div>
+                        <div class="col-lg-4">
+                            <img src="mango.png" class="img.luid">
+                            <h6 class="fruit2">NATURAL</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+      <section class="product">
+        <div class="container py-5">
+            <div class="row py-5">
+                <div class="col-lg-5 m-auto text-center">
+                    <h1>Trending Products</h1>
+                    <h6 style="color:red">Stay Healthy avoid chemicals.</h6>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 text-center">
+                    <div class="card border-0 bg-light mb-2">
+                        <card class="card-body">
+                            <img src="th.jpeg" class="img-fluid">
+                        </card>
+                    </div>
+                    <h6>Mayoneese</h6>
+                    <p>$39.9</p>
+
+                </div>
+                <div class="col-lg-3 text-center">
+                    <div class="card border-0 bg-light mb-2">
+                        <card class="card-body">
+                            <img src="lays.jpeg" class="img-fluid">
+                        </card>
+                    </div>
+                    <h6>Lays</h6>
+                    <p>$19.9</p>
+
+                </div>
+                <div class="col-lg-3 text-center">
+                    <div class="card border-0 bg-light mb-2">
+                        <card class="card-body">
+                            <img src="cornnn.jpeg" class="img-fluid">
+                        </card>
+                    </div>
+                    <h6>Corn</h6>
+                    <p>$49.9</p>
+
+                </div>
+                <div class="col-lg-3 text-center">
+                    <div class="card border-0 bg-light mb-2">
+                        <card class="card-body">
+                            <img src="curd.jpeg" class="img-fluid">
+                        </card>
+                    </div>
+                    <h6>Curd</h6>
+                    <p>$39.9</p>
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 text-center m-auto">
+                    <button class="btn1">More</button>
+                </div>
+            </div>
+        </div>
+      </section>
+      <section class="about">
+        <div class="container py-5">
+            <div class="row py-5">
+                <div class="col-lg-8 m-auto text-center">
+                    <h1>Welcome to Organic world</h1>
+                    <h6 style="color:red">Stay Healthy avoid chemicals.</h6>
+
+                </div>
+                <div class="row py-5">
+                    <div class="col-lg-4">
+                        <img src="woman1.jpeg" class="img.fluid mb-3">
+                        <h5>Best Quality</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, voluptas?</p>
+                    </div>
+                    <div class="col-lg-4">
+                        <img src="woman.jpeg" class="img.fluid mb-3">
+                        <h5>Organic food</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, voluptas?</p>
+                    </div>
+                    <div class="col-lg-4">
+                        <img src="ov.jpeg" class="img.fluid mb-3">
+                        <h5>Delicious</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, voluptas? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae vitae atque rem commodi, quae fuga corrupti, pariatur expedita quos tempore eveniet in rerum architecto iusto! Repellat voluptas vitae dicta quisquam autem cupiditate eum reprehenderit voluptates sed sapiente atque, blanditiis facere, sit repellendus omnis iusto dignissimos delectus maxime perspiciatis inventore? Nulla!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row pt-3">
+                <div class="col-lg-6 text-center m-auto">
+                    <button class="btn1"> Shop More</button>
+                </div>
+            </div>
+        </div>
+      </section>
+      <section class="shop">
+        <div class="container">
+            <div class="row py-5">
+                <div class="col-lg-8 m-auto text-center">
+                    <h1>Explore The Store</h1>
+                    <h6 style="color:red">Grab the Products</h6>
+                </div>
+            </div>
+        </div> <div class="row">
+            <div class="col-lg-3 text-center">
+                <div class="card border-0 bg-light mb-2">
+                    <card class="card-body">
+                        <img src="th.jpeg" class="img-fluid">
+                    </card>
+                </div>
+                <h6>Mayoneese</h6>
+                <p>$39.9</p>
+
+            </div>
+            <div class="col-lg-3 text-center">
+                <div class="card border-0 bg-light mb-2">
+                    <card class="card-body">
+                        <img src="lays.jpeg" class="img-fluid">
+                    </card>
+                </div>
+                <h6>Lays</h6>
+                <p>$19.9</p>
+
+            </div>
+            <div class="col-lg-3 text-center">
+                <div class="card border-0 bg-light mb-2">
+                    <card class="card-body">
+                        <img src="cornnn.jpeg" class="img-fluid">
+                    </card>
+                </div>
+                <h6>Corn</h6>
+                <p>$49.9</p>
+
+            </div>
+            <div class="col-lg-3 text-center">
+                <div class="card border-0 bg-light mb-2">
+                    <card class="card-body">
+                        <img src="curd.jpeg" class="img-fluid">
+                    </card>
+                </div>
+                <h6>Curd</h6>
+                <p>$39.9</p>
+
+            </div>
+            <div class="row">
+                <div class="col-lg-3 text-center">
+                    <div class="card border-0 bg-light mb-2">
+                        <card class="card-body">
+                            <img src="milk.jpeg" class="img-fluid">
+                        </card>
+                    </div>
+                    <h6>Milk</h6>
+                    <p>$19.9</p>
+
+                </div>
+                <div class="col-lg-3 text-center">
+                    <div class="card border-0 bg-light mb-2">
+                        <card class="card-body">
+                            <img src="wheat.jpeg" class="img-fluid">
+                        </card>
+                    </div>
+                    <h6>wheat</h6>
+                    <p>$50.9</p>
+
+                </div>
+                <div class="col-lg-3 text-center">
+                    <div class="card border-0 bg-light mb-2">
+                        <card class="card-body">
+                            <img src="oil.jpeg" class="img-fluid">
+                        </card>
+                    </div>
+                    <h6>oil</h6>
+                    <p>$34.9</p>
+
+                </div>
+                <div class="col-lg-3 text-center">
+                    <div class="card border-0 bg-light mb-2">
+                        <card class="card-body">
+                            <img src="rice.jpeg" class="img-fluid">
+                        </card>
+                    </div>
+                    <h6>Rice</h6>
+                    <p>$9.2</p>
+
+                </div>
+            </div>
+        </div>
+      </section>
+
+
+      <section class="apple py-5">
+        <div class="container text-white py-5">
+            <div class="row py-5">
+                <div class="col-lg-6">
+                    <h1 class="font-weight-bold py-3">Upgrade your self with Nutrition!</h1>
+                    <h6>Stay Healthy avoid chemicals.</h6>
+                    <button class="btn1 mt-3">More From Us</button>
+                    
+                </div>
+            </div>
+
+        </div>
+    </section>
+    
+
+    <section class="contact py-5">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-lg-5 m-auto text-center">
+                    <h1>Contact Us</h1>
+                    <h6 style="color:red">Feel Free to reach us</h6>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-l9-9 m-auto">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <h6>LOCATION</h6>
+                            <P>Hyderabad 123 KBHP</P>
+                       
+                            <h6>PHONE</h6>
+                            <P>+91-1234567891</P>
+                    
+                            <h6>Email</h6>
+                            <p>xyz@gmail.com</p>
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="row py-5">
+                            <div class="col-lg-6">
+                                <input type="text" class="form-control bg-light" placeholder="First name">
+                            </div>
+                            <div class="col-lg-6">
+                                <input type="text" class="form-control bg-light" placeholder="Last name">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg12 py-2">
+                                <textarea class="form-control bg-light" placeholder="Enter your Mail"cols="10" rows="5"></textarea>
+                            </div>
+                        </div>
+                        <button class="btn1">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="news py-5">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-lg-9 m-auto text-center">
+                    <h1>Join Us!</h1>
+                    <input type="text" placeholder="Enter your Mail">
+                    <button class="btn2">Submit</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
